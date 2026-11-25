@@ -5,6 +5,8 @@
 
 import type { Metadata } from "next";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 /** Site metadata */
 export const metadata: Metadata = {
@@ -16,7 +18,11 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="flex min-h-screen flex-col bg-page text-body">
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

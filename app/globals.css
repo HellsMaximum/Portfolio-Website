@@ -1,1 +1,66 @@
 @import "tailwindcss";
+
+:root {
+  /* Backgrounds */
+  --bg-page: #0A0C09;
+  --bg-band: #0E110C;
+  --bg-card: #151912;
+  --bg-media: #11140F;
+  --bg-placeholder: #1A1F17;
+
+  /* Borders */
+  --border-subtle: #343B2D;
+  --border-strong: #4A5340;
+
+  /* Text */
+  --text-primary: #ECE6D6;
+  --text-body: #CFC9B6;
+  --text-muted: #A8A58F;
+
+  /* Accent */
+  --accent: #8FA866;
+  --accent-alt-oak: #C49A6C;
+  --accent-alt-lichen: #B7C49A;
+  --accent-alt-rust: #C77B4A;
+
+  /* Code card */
+  --code-key: #B7C49A;
+  --code-value: #D2A878;
+
+  /* Cutting-mat background */
+  --mat-grid-fine: #151A12;
+  --mat-grid-main: #232B1D;
+  --mat-guide: #2E3727;
+  --mat-tick: #3A4232;
+  --mat-number: #4F5843;
+}
+
+/* Tailwind classes, e.g. bg-card, border-strong, text-primary */
+@theme inline {
+  --color-page: var(--bg-page);
+  --color-band: var(--bg-band);
+  --color-card: var(--bg-card);
+  --color-media: var(--bg-media);
+  --color-placeholder: var(--bg-placeholder);
+
+  --color-subtle: var(--border-subtle);
+  --color-strong: var(--border-strong);
+
+  --color-primary: var(--text-primary);
+  --color-body: var(--text-body);
+  --color-muted: var(--text-muted);
+
+  --color-accent: var(--accent);
+  --color-accent-alt-oak: var(--accent-alt-oak);
+  --color-accent-alt-lichen: var(--accent-alt-lichen);
+  --color-accent-alt-rust: var(--accent-alt-rust);
+
+  --color-code-key: var(--code-key);
+  --color-code-value: var(--code-value);
+
+  --color-mat-grid-fine: var(--mat-grid-fine);
+  --color-mat-grid-main: var(--mat-grid-main);
+  --color-mat-guide: var(--mat-guide);
+  --color-mat-tick: var(--mat-tick);
+  --color-mat-number: var(--mat-number);
+}
