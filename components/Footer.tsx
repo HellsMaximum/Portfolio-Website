@@ -5,8 +5,10 @@
 
 export default function Footer() {
   return (
-    <footer id="footer" className="border-t-2 border-subtle bg-page">
-      <div className="mx-auto h-32 max-w-[1200px] px-8"></div>
+    <footer id="contact" className="border-t-2 border-subtle bg-page">
+      <div className="mx-auto h-32 max-w-[1200px] px-8">
+        <p>Test Footer</p>
+      </div>
     </footer>
   );
 }

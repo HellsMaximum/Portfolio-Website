@@ -64,3 +64,8 @@
   --color-mat-tick: var(--mat-tick);
   --color-mat-number: var(--mat-number);
 }
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 74px;
+}
