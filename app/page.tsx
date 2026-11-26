@@ -6,8 +6,8 @@
 export default function Home() {
   return (
     <main className="flex-1">
-      {/** Hero */}
-      <section id="hero" className="mx-auto max-w-[1200px] px-8 py-20">
+      {/** About */}
+      <section id="about" className="mx-auto max-w-[1200px] px-8 py-20">
         {/* Status Box */}
         <div className="min-h-[200px] border-2 border-strong bg-card"></div>
       </section>
