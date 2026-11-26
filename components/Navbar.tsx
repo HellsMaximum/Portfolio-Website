@@ -36,7 +36,7 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-10 border-b-2 border-subtle bg-page">
-      <nav aria-label="Main" className="mx-auto flex h-[72px] max-w-[1200px] items-center justify-between px-5 md:px-8">
+      <nav aria-label="Main" className="mx-auto flex h-18 max-w-300 items-center justify-between px-5 md:px-8">
         {/** Name */}
         <Link href="/#about" className="text-[22px] font-black uppercase tracking-[0.02em] text-primary md:text-[26px]">
           Douglas Dickens

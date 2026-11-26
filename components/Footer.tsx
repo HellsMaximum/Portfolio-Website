@@ -6,7 +6,7 @@
 export default function Footer() {
   return (
     <footer id="contact" className="border-t-2 border-subtle bg-page">
-      <div className="mx-auto h-32 max-w-[1200px] px-8">
+      <div className="mx-auto h-32 max-w-300 px-8">
         <p>Test Footer</p>
       </div>
     </footer>
