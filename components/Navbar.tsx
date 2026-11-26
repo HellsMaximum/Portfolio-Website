@@ -89,7 +89,7 @@ export default function Navbar() {
               key={link.href}
               href={link.href}
               onClick={() => setOpen(false)}
-              className="block border-b-2 border-subtle px-5 py-4 text-lg text-muted last:border-b-0 hover:bg-card hover:text-primary"
+              className="block border-b-2 border-subtle py-4 pl-5 pr-8 text-right text-lg text-muted last:border-b-0 hover:bg-card hover:text-primary"
             >
               {link.label}
             </Link>
