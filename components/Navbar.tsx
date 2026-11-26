@@ -15,7 +15,7 @@ const links = [
   { href: "/#how", label: "How I work" },
   { href: "/#experience", label: "Experience" },
   { href: "/#offhours", label: "Off hours" },
-  { href: "/#footer", label: "Contact" },
+  { href: "/#contact", label: "Contact" },
 ];
 
 export default function Navbar() {
