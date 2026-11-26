@@ -3,13 +3,18 @@
  * Lays out a blank box for each A2 section, in page order, ready to be built out.
  */
 
+import CuttingMat from "@/components/CuttingMat";
+
 export default function Home() {
   return (
     <main className="flex-1">
       {/** About */}
-      <section id="about" className="mx-auto max-w-300 px-8 py-20">
-        {/* Status Box */}
-        <div className="min-h-50 border-2 border-strong bg-card"></div>
+      <section id="about" className="relative overflow-hidden">
+        <CuttingMat id="about-mat" />
+        <div className="relative mx-auto max-w-300 px-8 py-20">
+          {/* Status Box */}
+          <div className="min-h-50 border-2 border-strong bg-card"></div>
+        </div>
       </section>
 
       {/** Projects */}
